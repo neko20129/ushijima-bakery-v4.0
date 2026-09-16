@@ -484,6 +484,7 @@ saveElm.addEventListener('click', async () => {
         'level': level,
         'sold': sold,
         'levelUp': levelUp,
+        'profit' : profit,
         'buyDispHas': buyDispHas,
         'makeDispHas': makeDispHas,
         'upgradeDispHas': upgradeDispHas
@@ -504,6 +505,7 @@ loadElm.addEventListener('click', async () => {
     level = saveData.level;
     sold = saveData.sold;
     levelUp = saveData.levelUp;
+    profit = saveData.profit;
     const buyDispHas = saveData.buyDispHas;
     const makeDispHas = saveData.makeDispHas;
     const upgradeDispHas = saveData.upgradeDispHas;
